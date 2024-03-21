@@ -1,0 +1,65 @@
+---
+title: "Datasheet for Wine Quality"
+author: 
+  - Zijun Meng
+thanks: "Code and data are available at: https://github.com/FrankMengZJ/datasheet-wine.git, reviewed by Kuiyao Qiao"
+date: today
+date-format: long
+format: pdf
+number-sections: true
+bibliography: references.bib
+---
+
+```{r}
+#| include: false
+#| warning: false
+#| message: false
+
+library(tidyverse)
+```
+
+
+# Introduction
+This datasheet accompanies the Wine Quality dataset, documenting key aspects such as motivation, composition, collection process, and recommended uses. The dataset includes physicochemical properties and quality ratings for red and white wines from the Vinho Verde region in Portugal [@misc_wine_quality_186].
+
+# Motivation
+The primary goal behind the creation of the Wine Quality dataset was to provide a detailed analysis of physicochemical tests as predictors of wine quality. This dataset was developed to support research in machine learning and data science, specifically targeting the agricultural and food industries. It aims to foster advancements in predictive modeling techniques for wine quality, contributing to the broader field of food quality assessment [@Cortez2009ModelingWP].
+
+# Composition
+The dataset is composed of two separate files for red and white wines, containing 1,599 and 4,898 instances, respectively. Each instance represents a single wine sample and includes the following 11 physicochemical attributes:
+
+Fixed acidity
+Volatile acidity
+Citric acid
+Residual sugar
+Chlorides
+Free sulfur dioxide
+Total sulfur dioxide
+Density
+pH
+Sulphates
+Alcohol
+Additionally, each wine sample is assigned a quality score ranging from 0 (very poor) to 10 (excellent), based on sensory data.
+
+# Collection Process
+The physicochemical data were collected through standardized laboratory tests performed on wine samples. The quality ratings were assigned by wine experts, who evaluated the wines according to sensory characteristics. The specific methodology for collecting the sensory evaluations and physicochemical tests has not been detailed in the dataset documentation.
+
+# Recommended Uses
+The Wine Quality dataset is particularly suited for the following tasks:
+
+Regression Analysis: Predicting the quality score of a wine based on its physicochemical properties.
+Classification: Categorizing wines into predefined quality classes (e.g., low, medium, high) based on their physicochemical attributes.
+Data Exploration: Analyzing relationships between different physicochemical properties and how they influence the sensory quality of wine.
+This dataset is recommended for educational purposes, as well as for researchers and practitioners in the fields of food science, chemistry, and machine learning.
+
+# Distribution and Access
+The Wine Quality dataset is freely available for download from the UCI Machine Learning Repository [@misc_wine_quality_186]. It is distributed under a license that permits non-commercial use, ensuring that researchers and educators can utilize the dataset without restrictions. Users are encouraged to cite the original source when using the dataset in their work.
+
+# Conclusion
+The Wine Quality dataset serves as a valuable resource for exploring the relationship between physicochemical properties and wine quality. It offers a practical case study for various machine learning tasks, promoting research and education at the intersection of data science and food technology.
+\newpage
+
+
+# References
+
+

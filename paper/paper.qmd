@@ -1,5 +1,5 @@
 ---
-title: "Datasheet for Wine Quality"
+title: "Datasheet for Wine Quality Dataset"
 author: 
   - Zijun Meng
 thanks: "Code and data are available at: https://github.com/FrankMengZJ/datasheet-wine.git, reviewed by Kuiyao Qiao"
